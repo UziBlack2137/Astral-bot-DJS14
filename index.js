@@ -35,4 +35,4 @@ module.exports = client;
 
 
 
-client.login('MTExMjI3MTUyMDY1MjM0MTMyMQ.GGee3I.ePbrgFJYbAix7ITSXp-hLh5dJiuY9TdM1STZHs')
+client.login('YOUR TOKEN')
