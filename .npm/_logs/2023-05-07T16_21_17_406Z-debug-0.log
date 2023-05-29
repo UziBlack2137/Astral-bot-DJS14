@@ -1,0 +1,164 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.6.5
+2 info using node@v16.20.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 67ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 4ms
+10 timing config:load:file:/home/container/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 77ms
+16 timing npm:load:configload Completed in 77ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm install discord.js@latest @discordjs/rest ascii-table discord-api-types ms dotenv chalk@2.4.1 mongoose
+20 verbose argv "install" "discord.js@latest" "@discordjs/rest" "ascii-table" "discord-api-types" "ms" "dotenv" "chalk@2.4.1" "mongoose"
+21 timing npm:load:setTitle Completed in 2ms
+22 timing config:load:flatten Completed in 4ms
+23 timing npm:load:display Completed in 5ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-05-07T16_21_17_406Z-
+25 verbose logfile /home/container/.npm/_logs/2023-05-07T16_21_17_406Z-debug-0.log
+26 timing npm:load:logFile Completed in 10ms
+27 timing npm:load:timers Completed in 1ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 98ms
+30 timing arborist:ctor Completed in 2ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 283ms
+33 timing arborist:ctor Completed in 1ms
+34 http fetch GET 200 https://registry.npmjs.org/discord.js 230ms (cache hit)
+35 timing idealTree:userRequests Completed in 309ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @discordjs/rest@^1.7.1
+38 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 17ms (cache hit)
+39 silly fetch manifest ascii-table@^0.0.9
+40 http fetch GET 200 https://registry.npmjs.org/ascii-table 7ms (cache hit)
+41 silly fetch manifest chalk@2.4.1
+42 http fetch GET 200 https://registry.npmjs.org/chalk 4ms (cache hit)
+43 silly fetch manifest discord-api-types@^0.37.41
+44 http fetch GET 200 https://registry.npmjs.org/discord-api-types 10ms (cache hit)
+45 silly fetch manifest discord.js@14.11.0
+46 silly fetch manifest dotenv@^16.0.3
+47 http fetch GET 200 https://registry.npmjs.org/dotenv 94ms (cache hit)
+48 silly fetch manifest mongoose@^7.1.0
+49 http fetch GET 200 https://registry.npmjs.org/mongoose 104ms (cache hit)
+50 silly fetch manifest ms@^2.1.3
+51 http fetch GET 200 https://registry.npmjs.org/ms 5ms (cache hit)
+52 silly placeDep ROOT @discordjs/rest@1.7.1 REPLACE for:  want: ^1.7.1
+53 silly placeDep ROOT ascii-table@0.0.9 REPLACE for:  want: ^0.0.9
+54 silly placeDep ROOT chalk@2.4.1 REPLACE for:  want: 2.4.1
+55 silly placeDep ROOT discord-api-types@0.37.41 REPLACE for:  want: ^0.37.41
+56 silly placeDep ROOT discord.js@14.11.0 REPLACE for:  want: 14.11.0
+57 silly placeDep ROOT dotenv@16.0.3 REPLACE for:  want: ^16.0.3
+58 silly placeDep ROOT mongoose@7.1.0 REPLACE for:  want: ^7.1.0
+59 silly placeDep ROOT ms@2.1.3 REPLACE for:  want: ^2.1.3
+60 timing idealTree:#root Completed in 591ms
+61 timing idealTree:node_modules/@discordjs/rest Completed in 0ms
+62 timing idealTree:node_modules/ascii-table Completed in 0ms
+63 timing idealTree:node_modules/chalk Completed in 0ms
+64 timing idealTree:node_modules/discord-api-types Completed in 0ms
+65 timing idealTree:node_modules/discord.js Completed in 0ms
+66 timing idealTree:node_modules/dotenv Completed in 0ms
+67 timing idealTree:node_modules/mongoose Completed in 2ms
+68 timing idealTree:node_modules/ms Completed in 0ms
+69 timing idealTree:buildDeps Completed in 595ms
+70 timing idealTree:fixDepFlags Completed in 2ms
+71 timing idealTree Completed in 1193ms
+72 timing reify:loadTrees Completed in 1194ms
+73 timing reify:diffTrees Completed in 5ms
+74 silly reify moves {}
+75 timing reify:retireShallow Completed in 2ms
+76 timing reify:createSparse Completed in 0ms
+77 timing reify:loadBundles Completed in 0ms
+78 silly audit bulk request {
+78 silly audit   '@discordjs/builders': [ '1.6.3' ],
+78 silly audit   '@discordjs/collection': [ '1.5.1' ],
+78 silly audit   '@discordjs/formatters': [ '0.3.1' ],
+78 silly audit   '@discordjs/util': [ '0.3.1' ],
+78 silly audit   '@discordjs/ws': [ '0.8.3' ],
+78 silly audit   '@sapphire/async-queue': [ '1.5.0' ],
+78 silly audit   '@sapphire/shapeshift': [ '3.8.2' ],
+78 silly audit   '@sapphire/snowflake': [ '3.4.2' ],
+78 silly audit   '@tokenizer/token': [ '0.3.0' ],
+78 silly audit   '@types/node': [ '18.15.3' ],
+78 silly audit   '@types/webidl-conversions': [ '7.0.0' ],
+78 silly audit   '@types/whatwg-url': [ '8.2.2' ],
+78 silly audit   '@types/ws': [ '8.5.4' ],
+78 silly audit   '@vladfrangu/async_event_emitter': [ '2.2.1' ],
+78 silly audit   'ansi-styles': [ '3.2.1' ],
+78 silly audit   bson: [ '5.2.0' ],
+78 silly audit   busboy: [ '1.6.0' ],
+78 silly audit   'color-convert': [ '1.9.3' ],
+78 silly audit   'color-name': [ '1.1.3' ],
+78 silly audit   debug: [ '4.3.4' ],
+78 silly audit   ms: [ '2.1.2', '2.1.3' ],
+78 silly audit   'escape-string-regexp': [ '1.0.5' ],
+78 silly audit   'fast-deep-equal': [ '3.1.3' ],
+78 silly audit   'file-type': [ '18.3.0' ],
+78 silly audit   'has-flag': [ '3.0.0' ],
+78 silly audit   ieee754: [ '1.2.1' ],
+78 silly audit   inherits: [ '2.0.4' ],
+78 silly audit   ip: [ '2.0.0' ],
+78 silly audit   kareem: [ '2.5.1' ],
+78 silly audit   lodash: [ '4.17.21' ],
+78 silly audit   'lodash.snakecase': [ '4.1.1' ],
+78 silly audit   'memory-pager': [ '1.5.0' ],
+78 silly audit   mongodb: [ '5.3.0' ],
+78 silly audit   'mongodb-connection-string-url': [ '2.6.0' ],
+78 silly audit   mpath: [ '0.9.0' ],
+78 silly audit   mquery: [ '5.0.0' ],
+78 silly audit   'peek-readable': [ '5.0.0' ],
+78 silly audit   punycode: [ '2.3.0' ],
+78 silly audit   'readable-stream': [ '3.6.2' ],
+78 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+78 silly audit   'safe-buffer': [ '5.2.1' ],
+78 silly audit   saslprep: [ '1.0.3' ],
+78 silly audit   sift: [ '16.0.1' ],
+78 silly audit   'smart-buffer': [ '4.2.0' ],
+78 silly audit   socks: [ '2.7.1' ],
+78 silly audit   'sparse-bitfield': [ '3.0.3' ],
+78 silly audit   streamsearch: [ '1.1.0' ],
+78 silly audit   string_decoder: [ '1.3.0' ],
+78 silly audit   strtok3: [ '7.0.0' ],
+78 silly audit   'supports-color': [ '5.5.0' ],
+78 silly audit   'token-types': [ '5.0.1' ],
+78 silly audit   tr46: [ '3.0.0' ],
+78 silly audit   'ts-mixer': [ '6.0.3' ],
+78 silly audit   tslib: [ '2.5.0' ],
+78 silly audit   undici: [ '5.22.0' ],
+78 silly audit   'util-deprecate': [ '1.0.2' ],
+78 silly audit   'webidl-conversions': [ '7.0.0' ],
+78 silly audit   'whatwg-url': [ '11.0.0' ],
+78 silly audit   ws: [ '8.13.0' ],
+78 silly audit   '@discordjs/rest': [ '1.7.1' ],
+78 silly audit   'ascii-table': [ '0.0.9' ],
+78 silly audit   chalk: [ '2.4.1' ],
+78 silly audit   'discord-api-types': [ '0.37.41' ],
+78 silly audit   'discord.js': [ '14.11.0' ],
+78 silly audit   dotenv: [ '16.0.3' ],
+78 silly audit   mongoose: [ '7.1.0' ]
+78 silly audit }
+79 timing reify:unpack Completed in 2ms
+80 timing reify:unretire Completed in 0ms
+81 timing build:queue Completed in 0ms
+82 timing build:deps Completed in 1ms
+83 timing build Completed in 1ms
+84 timing reify:build Completed in 1ms
+85 timing reify:trash Completed in 0ms
+86 timing reify:save Completed in 103ms
+87 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 472ms
+88 timing auditReport:getReport Completed in 477ms
+89 silly audit report {}
+90 timing auditReport:init Completed in 0ms
+91 timing reify:audit Completed in 480ms
+92 timing reify Completed in 1691ms
+93 timing command:install Completed in 1705ms
+94 verbose exit 0
+95 timing npm Completed in 2497ms
+96 info ok

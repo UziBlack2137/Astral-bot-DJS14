@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "ascii-table": "^0.0.9",
+    "chalk": "^2.4.1",
+    "discord-api-types": "^0.37.41",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.0",
+    "ms": "^2.1.3"
+  }
+}
